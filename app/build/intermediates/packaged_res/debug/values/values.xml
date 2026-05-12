@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#6B8F71</color>
+    <color name="alerte_critique_bg">#FFF0F0</color>
+    <color name="alerte_critique_text">#C62828</color>
+    <color name="alerte_warning_bg">#FFF8E1</color>
+    <color name="alerte_warning_text">#E65100</color>
+    <color name="background">#F2F5F2</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="chip_hum_bg">#E3F2FD</color>
+    <color name="chip_hum_text">#0D47A1</color>
+    <color name="chip_temp_bg">#FFF3E0</color>
+    <color name="chip_temp_text">#BF360C</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#C62828</color>
+    <color name="primary">#4A7C59</color>
+    <color name="primary_dark">#2D5016</color>
+    <color name="primary_light">#7BAE7F</color>
+    <color name="statut_cr_bg">#FFF0F0</color>
+    <color name="statut_cr_text">#8B0000</color>
+    <color name="statut_en_bg">#FFF4ED</color>
+    <color name="statut_en_text">#8B3A00</color>
+    <color name="statut_lc_bg">#EDFFF2</color>
+    <color name="statut_lc_text">#0D5C2E</color>
+    <color name="statut_nt_bg">#EEF4FF</color>
+    <color name="statut_nt_text">#1A4A8B</color>
+    <color name="statut_vu_bg">#FFFBEC</color>
+    <color name="statut_vu_text">#7A5800</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="unread_dot">#4A7C59</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <string name="app_name">EcoParc</string>
+    <string name="gcm_defaultSenderId" translatable="false">000000000000</string>
+    <string name="google_api_key" translatable="false">REMPLACER_PAR_VOTRE_CLE_API</string>
+    <string name="google_app_id" translatable="false">1:000000000000:android:0000000000000000</string>
+    <string name="google_crash_reporting_api_key" translatable="false">REMPLACER_PAR_VOTRE_CLE_API</string>
+    <string name="google_storage_bucket" translatable="false">ecoparc-app.appspot.com</string>
+    <string name="project_id" translatable="false">ecoparc-app</string>
+    <style name="SectionLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="Theme.EcoParc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

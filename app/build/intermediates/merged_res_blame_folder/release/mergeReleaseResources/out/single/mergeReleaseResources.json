@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_edit.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_bg_statut_en.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/bg_statut_en.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_location.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_nature.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_nature.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_bg_statut_nt.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/bg_statut_nt.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/layout_activity_espece_form.xml.flat",
+        "source": "com.ecoparc.app-main-6:/layout/activity_espece_form.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_alert.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_alert.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_bg_statut_lc.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/bg_statut_lc.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/layout_activity_main.xml.flat",
+        "source": "com.ecoparc.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_circle_unread.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/circle_unread.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_add.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/menu_menu_main.xml.flat",
+        "source": "com.ecoparc.app-main-6:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_sync_pending.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_sync_pending.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_ic_info.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_bg_statut_cr.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/bg_statut_cr.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/layout_item_alerte.xml.flat",
+        "source": "com.ecoparc.app-main-6:/layout/item_alerte.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_bg_spinner.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/bg_spinner.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/layout_item_espece.xml.flat",
+        "source": "com.ecoparc.app-main-6:/layout/item_espece.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/layout_activity_alerts.xml.flat",
+        "source": "com.ecoparc.app-main-6:/layout/activity_alerts.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/drawable_bg_statut_vu.xml.flat",
+        "source": "com.ecoparc.app-main-6:/drawable/bg_statut_vu.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/layout_activity_espece_detail.xml.flat",
+        "source": "com.ecoparc.app-main-6:/layout/activity_espece_detail.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/color_input_stroke_selector.xml.flat",
+        "source": "com.ecoparc.app-main-6:/color/input_stroke_selector.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-release-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ecoparc.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

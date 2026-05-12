@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_edit.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_alert.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_alert.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/layout_activity_espece_detail.xml.flat",
+        "source": "com.ecoparc.app-main-53:/layout/activity_espece_detail.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/layout_activity_alerts.xml.flat",
+        "source": "com.ecoparc.app-main-53:/layout/activity_alerts.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_add.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_bg_statut_nt.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/bg_statut_nt.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_bg_statut_lc.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/bg_statut_lc.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_bg_statut_vu.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/bg_statut_vu.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_sync_pending.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_sync_pending.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_bg_spinner.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/bg_spinner.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/layout_activity_main.xml.flat",
+        "source": "com.ecoparc.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_location.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/layout_item_espece.xml.flat",
+        "source": "com.ecoparc.app-main-53:/layout/item_espece.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_info.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_bg_statut_cr.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/bg_statut_cr.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/color_input_stroke_selector.xml.flat",
+        "source": "com.ecoparc.app-main-53:/color/input_stroke_selector.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/menu_menu_main.xml.flat",
+        "source": "com.ecoparc.app-main-53:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/layout_activity_espece_form.xml.flat",
+        "source": "com.ecoparc.app-main-53:/layout/activity_espece_form.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/layout_item_alerte.xml.flat",
+        "source": "com.ecoparc.app-main-53:/layout/item_alerte.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_bg_statut_en.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/bg_statut_en.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.ecoparc.app-main-53:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_ic_nature.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/ic_nature.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-debug-51:/drawable_circle_unread.xml.flat",
+        "source": "com.ecoparc.app-main-53:/drawable/circle_unread.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://ecoparcapp-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">883191046554</string>
+    <string name="google_api_key" translatable="false">AIzaSyBt0naVVa1jaHmF_4y9w61j3PBpd5WsCKQ</string>
+    <string name="google_app_id" translatable="false">1:883191046554:android:7bcdcf856be3720ef19a23</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBt0naVVa1jaHmF_4y9w61j3PBpd5WsCKQ</string>
+    <string name="google_storage_bucket" translatable="false">ecoparcapp.firebasestorage.app</string>
+    <string name="project_id" translatable="false">ecoparcapp</string>
+</resources>

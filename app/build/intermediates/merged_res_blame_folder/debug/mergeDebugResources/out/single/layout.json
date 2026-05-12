@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.ecoparc.app-mergeDebugResources-50:/layout/activity_espece_detail.xml",
+        "source": "com.ecoparc.app-main-53:/layout/activity_espece_detail.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-mergeDebugResources-50:/layout/activity_espece_form.xml",
+        "source": "com.ecoparc.app-main-53:/layout/activity_espece_form.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-mergeDebugResources-50:/layout/activity_alerts.xml",
+        "source": "com.ecoparc.app-main-53:/layout/activity_alerts.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.ecoparc.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-mergeDebugResources-50:/layout/item_espece.xml",
+        "source": "com.ecoparc.app-main-53:/layout/item_espece.xml"
+    },
+    {
+        "merged": "com.ecoparc.app-mergeDebugResources-50:/layout/item_alerte.xml",
+        "source": "com.ecoparc.app-main-53:/layout/item_alerte.xml"
+    }
+]

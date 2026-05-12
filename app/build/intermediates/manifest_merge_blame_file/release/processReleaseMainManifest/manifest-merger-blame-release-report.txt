@@ -1,0 +1,481 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecoparc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:7:5-81
+13-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:8:5-77
+14-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:9:5-77
+15-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+16-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:10:5-86
+16-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:10:22-83
+17
+18    <uses-feature
+18-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:12:5-105
+19        android:name="android.hardware.sensor.ambient_temperature"
+19-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:12:19-77
+20        android:required="false" />
+20-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:12:78-102
+21    <uses-feature
+21-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:13:5-103
+22        android:name="android.hardware.sensor.relative_humidity"
+22-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:13:19-75
+23        android:required="false" />
+23-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:13:76-100
+24    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+25    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:22:5-79
+26-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:22:22-76
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
+27-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:22-65
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:5-81
+28-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:22-78
+29
+30    <permission
+30-->[androidx.core:core:1.12.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\de65c28870c576bc53261922b87a93df\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.ecoparc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.12.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\de65c28870c576bc53261922b87a93df\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.12.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\de65c28870c576bc53261922b87a93df\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.ecoparc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.12.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\de65c28870c576bc53261922b87a93df\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.12.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\de65c28870c576bc53261922b87a93df\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:15:5-52:19
+37        android:allowBackup="true"
+37-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:16:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.12.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\de65c28870c576bc53261922b87a93df\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:17:9-43
+41        android:label="@string/app_name"
+41-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:18:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:19:9-54
+43        android:supportsRtl="true"
+43-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:20:9-35
+44        android:theme="@style/Theme.EcoParc" >
+44-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:21:9-45
+45        <activity
+45-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:23:9-31:20
+46            android:name="com.ecoparc.ui.main.MainActivity"
+46-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:24:13-49
+47            android:exported="true"
+47-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:25:13-36
+48            android:windowSoftInputMode="adjustResize" >
+48-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:26:13-55
+49            <intent-filter>
+49-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:27:13-30:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:28:17-69
+50-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:28:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:29:17-77
+52-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:29:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:33:9-36:58
+56            android:name="com.ecoparc.ui.form.EspeceFormActivity"
+56-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:34:13-55
+57            android:exported="false"
+57-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:35:13-37
+58            android:windowSoftInputMode="adjustResize" />
+58-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:36:13-55
+59        <activity
+59-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:38:9-40:40
+60            android:name="com.ecoparc.ui.detail.EspeceDetailActivity"
+60-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:39:13-59
+61            android:exported="false" />
+61-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:40:13-37
+62        <activity
+62-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:42:9-44:40
+63            android:name="com.ecoparc.ui.alerts.AlertsActivity"
+63-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:43:13-53
+64            android:exported="false" />
+64-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:44:13-37
+65
+66        <service
+66-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:46:9-50:56
+67            android:name="com.ecoparc.service.MonitoringService"
+67-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:47:13-54
+68            android:enabled="true"
+68-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:48:13-35
+69            android:exported="false"
+69-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:49:13-37
+70            android:foregroundServiceType="location" />
+70-->E:\Android\SCHOOL\EcoParcApp _FINALE\EcoParcApp\EcoParcApp\app\src\main\AndroidManifest.xml:50:13-53
+71        <service
+71-->[com.google.firebase:firebase-database-ktx:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\f9576af780a47b614a9a3d50fe748a7d\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:9:9-15:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-database-ktx:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\f9576af780a47b614a9a3d50fe748a7d\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:10:13-84
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-database-ktx:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\f9576af780a47b614a9a3d50fe748a7d\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:11:13-37
+75            <meta-data
+75-->[com.google.firebase:firebase-database-ktx:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\f9576af780a47b614a9a3d50fe748a7d\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:12:13-14:85
+76                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
+76-->[com.google.firebase:firebase-database-ktx:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\f9576af780a47b614a9a3d50fe748a7d\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:13:17-127
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-database-ktx:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\f9576af780a47b614a9a3d50fe748a7d\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:14:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:29:13-31:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+79-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:30:17-120
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:31:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+82-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:33:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-database:20.3.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\4f30f0c33235854f17a713ab821b65c6\transformed\firebase-database-20.3.1\AndroidManifest.xml:34:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore-ktx:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\74690f408cf5fc42a658fa07de0aee4e\transformed\firebase-firestore-ktx-24.10.3\AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+85-->[com.google.firebase:firebase-firestore-ktx:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\74690f408cf5fc42a658fa07de0aee4e\transformed\firebase-firestore-ktx-24.10.3\AndroidManifest.xml:13:17-129
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore-ktx:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\74690f408cf5fc42a658fa07de0aee4e\transformed\firebase-firestore-ktx-24.10.3\AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\0e63a51097cb5d026fb69bb002b3aaf0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:17:13-19:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+88-->[com.google.firebase:firebase-firestore:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\0e63a51097cb5d026fb69bb002b3aaf0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:18:17-122
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\0e63a51097cb5d026fb69bb002b3aaf0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:19:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-firestore:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\0e63a51097cb5d026fb69bb002b3aaf0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:20:13-22:85
+91                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+91-->[com.google.firebase:firebase-firestore:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\0e63a51097cb5d026fb69bb002b3aaf0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:21:17-111
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-firestore:24.10.3] E:\Dev\Caches\Gradle\caches\8.13\transforms\0e63a51097cb5d026fb69bb002b3aaf0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:22:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-common-ktx:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\68b07723d2cdc1ed660fa9e97fa713ee\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+94                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+94-->[com.google.firebase:firebase-common-ktx:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\68b07723d2cdc1ed660fa9e97fa713ee\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-common-ktx:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\68b07723d2cdc1ed660fa9e97fa713ee\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+97                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+97-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+99        </service>
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\3c6e741023417f2706c977631eacab17\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\3c6e741023417f2706c977631eacab17\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\3c6e741023417f2706c977631eacab17\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\3c6e741023417f2706c977631eacab17\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.ecoparc.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\a9e9c60f154aadbd86f30eef20cb8eef\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
+114                android:name="androidx.work.WorkManagerInitializer"
+114-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
+115                android:value="androidx.startup" />
+115-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
+116            <meta-data
+116-->[androidx.lifecycle:lifecycle-process:2.7.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\506fe3c3cc8c36835af7f01307f83c34\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.7.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\506fe3c3cc8c36835af7f01307f83c34\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+118                android:value="androidx.startup" />
+118-->[androidx.lifecycle:lifecycle-process:2.7.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\506fe3c3cc8c36835af7f01307f83c34\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+119            <meta-data
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+121                android:value="androidx.startup" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+122        </provider>
+123
+124        <service
+124-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
+125            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+125-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
+126            android:directBootAware="false"
+126-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
+127            android:enabled="@bool/enable_system_alarm_service_default"
+127-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
+128            android:exported="false" />
+128-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
+129        <service
+129-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
+130            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+130-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
+131            android:directBootAware="false"
+131-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
+132            android:enabled="@bool/enable_system_job_service_default"
+132-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
+133            android:exported="true"
+133-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
+135        <service
+135-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
+136            android:name="androidx.work.impl.foreground.SystemForegroundService"
+136-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
+137            android:directBootAware="false"
+137-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
+138            android:enabled="@bool/enable_system_foreground_service_default"
+138-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
+139            android:exported="false" />
+139-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
+140
+141        <receiver
+141-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
+142            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+142-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
+144            android:enabled="true"
+144-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
+145            android:exported="false" />
+145-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
+146        <receiver
+146-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
+147            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+147-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
+148            android:directBootAware="false"
+148-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
+149            android:enabled="false"
+149-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
+150            android:exported="false" >
+150-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
+151            <intent-filter>
+151-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
+152                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+152-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
+152-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
+153                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+153-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
+153-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
+154            </intent-filter>
+155        </receiver>
+156        <receiver
+156-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
+157            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+157-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
+158            android:directBootAware="false"
+158-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
+159            android:enabled="false"
+159-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
+160            android:exported="false" >
+160-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
+161            <intent-filter>
+161-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
+162                <action android:name="android.intent.action.BATTERY_OKAY" />
+162-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
+162-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
+163                <action android:name="android.intent.action.BATTERY_LOW" />
+163-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
+163-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
+164            </intent-filter>
+165        </receiver>
+166        <receiver
+166-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
+167            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+167-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
+168            android:directBootAware="false"
+168-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
+169            android:enabled="false"
+169-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
+170            android:exported="false" >
+170-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
+171            <intent-filter>
+171-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
+172                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+172-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
+172-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
+173                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+173-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
+173-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
+174            </intent-filter>
+175        </receiver>
+176        <receiver
+176-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
+177            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+177-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
+178            android:directBootAware="false"
+178-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
+179            android:enabled="false"
+179-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
+180            android:exported="false" >
+180-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
+181            <intent-filter>
+181-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
+182                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+182-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
+182-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
+183            </intent-filter>
+184        </receiver>
+185        <receiver
+185-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
+186            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+186-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
+187            android:directBootAware="false"
+187-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
+188            android:enabled="false"
+188-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
+189            android:exported="false" >
+189-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
+190            <intent-filter>
+190-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
+191                <action android:name="android.intent.action.BOOT_COMPLETED" />
+191-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:17-79
+191-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:25-76
+192                <action android:name="android.intent.action.TIME_SET" />
+192-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
+192-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
+193                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+193-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
+193-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
+194            </intent-filter>
+195        </receiver>
+196        <receiver
+196-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
+197            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+197-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
+199            android:enabled="@bool/enable_system_alarm_service_default"
+199-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
+200            android:exported="false" >
+200-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
+201            <intent-filter>
+201-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
+202                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+202-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
+202-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
+203            </intent-filter>
+204        </receiver>
+205        <receiver
+205-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
+206            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+206-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
+207            android:directBootAware="false"
+207-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
+208            android:enabled="true"
+208-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
+209            android:exported="true"
+209-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
+210            android:permission="android.permission.DUMP" >
+210-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
+211            <intent-filter>
+211-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
+212                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+212-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
+212-->[androidx.work:work-runtime:2.9.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\b6a5a313a6e234c24289fcdc2d5185c9\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
+213            </intent-filter>
+214        </receiver>
+215
+216        <service
+216-->[androidx.room:room-runtime:2.6.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\8d1e178f9bbe2aac3cb6489413b5cba8\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+217            android:name="androidx.room.MultiInstanceInvalidationService"
+217-->[androidx.room:room-runtime:2.6.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\8d1e178f9bbe2aac3cb6489413b5cba8\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+218            android:directBootAware="true"
+218-->[androidx.room:room-runtime:2.6.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\8d1e178f9bbe2aac3cb6489413b5cba8\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+219            android:exported="false" />
+219-->[androidx.room:room-runtime:2.6.1] E:\Dev\Caches\Gradle\caches\8.13\transforms\8d1e178f9bbe2aac3cb6489413b5cba8\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+220
+221        <provider
+221-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+222            android:name="com.google.firebase.provider.FirebaseInitProvider"
+222-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+223            android:authorities="com.ecoparc.firebaseinitprovider"
+223-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+224            android:directBootAware="true"
+224-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+225            android:exported="false"
+225-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+226            android:initOrder="100" />
+226-->[com.google.firebase:firebase-common:20.4.2] E:\Dev\Caches\Gradle\caches\8.13\transforms\280ba8a436254e02dd27341c50001810\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+227
+228        <meta-data
+228-->[com.google.android.gms:play-services-basement:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\daadc81ce59dbb4d7c3e05e6f04714fc\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+229            android:name="com.google.android.gms.version"
+229-->[com.google.android.gms:play-services-basement:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\daadc81ce59dbb4d7c3e05e6f04714fc\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+230            android:value="@integer/google_play_services_version" />
+230-->[com.google.android.gms:play-services-basement:18.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\daadc81ce59dbb4d7c3e05e6f04714fc\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+231
+232        <receiver
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+233            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+234            android:directBootAware="false"
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+235            android:enabled="true"
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+236            android:exported="true"
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+237            android:permission="android.permission.DUMP" >
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+238            <intent-filter>
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+239                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+240            </intent-filter>
+241            <intent-filter>
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+242                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+243            </intent-filter>
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+245                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+246            </intent-filter>
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+248                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\Dev\Caches\Gradle\caches\8.13\transforms\4faacd7ebc0c156963e22c33195d0d9d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+249            </intent-filter>
+250        </receiver>
+251    </application>
+252
+253</manifest>
