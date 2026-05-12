@@ -126,4 +126,43 @@ service cloud.firestore {
 
 ---
 
+## 📸 Screenshots
+
+### 🗺️ Species List
+
+#### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+#### Search
+![Search](screenshots/search.png)
+
+#### Filter by Status
+![Filter by Status](screenshots/filter-by-status.png)
+
+---
+
+### ➕ Species Management
+
+#### Add Species
+![Add Species](screenshots/add-specie.png)
+
+#### Edit Species
+![Edit Species](screenshots/edit.png)
+
+---
+
+### 📋 Species Detail
+
+#### Species Details
+![Species Details](screenshots/specie-details.png)
+
+---
+
+### 🔔 Notifications
+
+#### Notifications
+![Notifications](screenshots/notifications.png)
+
+---
+
 *Mobile Application Development 2 — Final Project*
